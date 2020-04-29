@@ -20,12 +20,6 @@ You can get up and running quickly by using the deploy to Heroku button below:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jolzee/twilio-teneo-sms-conversational)
 
-### Azure
-
-You can get up and running quickly by using the deploy to Azure button below:
-
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjolzee%2Ftwilio-teneo-sms-conversational%2Fmaster%2Fazure-deploy.json)
-
 ### Docker & Docker Compose
 
 You can optionally run the connector using either Docker or Docker Compose.
@@ -36,7 +30,7 @@ You can optionally run the connector using either Docker or Docker Compose.
 docker run -p 3000:3000 -it --env TIE_URL=https://<TIE-HOST>/<TIE-CTX-PATH>/ jolzee/twilio-teneo-sms-conversational:latest
 ```
 
-#### Dokcer Compose Example:
+#### Docker Compose Example:
 
 This combines a NGROK container that exposes the server on a public URL that can then be used as the webhook url in Twilio.
 
